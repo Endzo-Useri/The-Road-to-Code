@@ -1,3 +1,20 @@
 body {
-    background: royalblue;
+    background: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    /* background: #00ccbb56; */
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 0;
+    max-width: 500px;
+}
+
+p {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
 }
