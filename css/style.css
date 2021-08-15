@@ -14,8 +14,13 @@ h1, h2 {
 }
 
 p {
-    /* border: 1px solid red; */
+    border: 1px solid blue;
     font-size: 20px;
     width: 700px;
     margin: 0 auto;
+}
+
+footer {
+    border: 2px solid red;
+    padding: 10px 0;
 }
