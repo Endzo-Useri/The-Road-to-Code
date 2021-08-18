@@ -15,10 +15,11 @@ h2 {
 }
 
 p {
-  border: 1px solid blue;
+  border: 3px solid blue;
   font-size: 20px;
   width: 400px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 footer {
@@ -28,7 +29,9 @@ footer {
 }
 
 .cols {
-  border: 2px solid green;
+  border: 5px solid green;
   display: flex;
-  margin-top: 20px;
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
