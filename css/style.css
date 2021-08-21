@@ -14,23 +14,24 @@ h2 {
   max-width: 500px;
 }
 
-.intro {
-  width: 500px;
-  margin: 0 auto;
+.foot-update {
+  border: 2px solid red;
+  width: 600px;
+  padding: 10px 0;
+  margin: 20px auto;
 }
 
-.col {
-  border: 3px solid blue;
-  font-size: 20px;
-  width: 400px;
+.foot-update p {
+  border: 3px solid green;
+  text-align: center;
+  width: 550px;
   margin: 0 auto;
   padding: 10px;
 }
 
-footer {
-  border: 2px solid red;
-  padding: 10px 0;
-  margin-top: 20px;
+.intro {
+  width: 500px;
+  margin: 0 auto;
 }
 
 .cols {
@@ -39,4 +40,12 @@ footer {
   width: 900px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.col {
+  border: 3px solid blue;
+  font-size: 20px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
 }
