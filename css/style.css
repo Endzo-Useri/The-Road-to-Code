@@ -14,7 +14,7 @@ h2 {
   max-width: 500px;
 }
 
-p {
+.blog {
   border: 3px solid blue;
   font-size: 20px;
   width: 400px;
