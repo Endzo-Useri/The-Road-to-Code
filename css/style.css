@@ -14,6 +14,11 @@ h2 {
   max-width: 500px;
 }
 
+/* Added 25 Aug 21 */
+header * {
+  display: inline;
+}
+
 .col {
   /* border: 3px solid blue; */
   font-size: 20px;
