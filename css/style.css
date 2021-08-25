@@ -2,7 +2,6 @@ body {
   background: rgba(0, 0, 0, 0.2);
   color: #333;
   font-family: "Roboto", sans-serif;
-  /* Added 25 Aug 21 */
   height: 125vh;
   margin-top: 80px;
   padding: 30px;
@@ -17,7 +16,11 @@ h2 {
   max-width: 500px;
 }
 
-/* Added 25 Aug 21 */
+header img {
+  height: 80px;
+  margin-left: 40px;
+}
+
 header {
   background: #fff;
   position: fixed;
@@ -26,7 +29,7 @@ header {
   right: 0;
   height: 80px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 header * {
@@ -35,6 +38,11 @@ header * {
 
 header li {
   margin: 20px;
+}
+
+header li a {
+  color: #333;
+  text-decoration: none;
 }
 
 .col {
