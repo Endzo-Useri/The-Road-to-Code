@@ -22,7 +22,7 @@ header img {
 }
 
 header {
-  background: #fff;
+  background: lightgray;
   position: fixed;
   top: 0;
   left: 0;
@@ -30,6 +30,7 @@ header {
   height: 80px;
   display: flex;
   align-items: center;
+  box-shadow: 5px 5px 25px 5px #333;
 }
 
 header * {
@@ -41,8 +42,24 @@ header li {
 }
 
 header li a {
-  color: #333;
+  background: gray;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: gray;
+  border-radius: 50px;
+}
+
+header li a:hover,
+header li a:focus {
+  background: rgb(66, 48, 48);
+  padding: 10px 25px;
+}
+
+header li a:active {
+  background: rgb(31, 29, 29);
+  padding: 6px 15px;
 }
 
 .col {
