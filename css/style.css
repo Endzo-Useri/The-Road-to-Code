@@ -2,7 +2,10 @@ body {
   background: rgba(0, 0, 0, 0.2);
   color: #333;
   font-family: "Roboto", sans-serif;
-  margin: 0;
+  /* Added 25 Aug 21 */
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
 }
 
 h1,
@@ -15,8 +18,23 @@ h2 {
 }
 
 /* Added 25 Aug 21 */
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  /* align-items: center; */
+}
+
 header * {
   display: inline;
+}
+
+header li {
+  margin: 20px;
 }
 
 .col {
