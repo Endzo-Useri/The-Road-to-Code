@@ -58,7 +58,7 @@ header li a:focus {
 }
 
 header li a:active {
-  background: rgb(31, 29, 29);
+  background: rgb(124, 52, 52);
   padding: 6px 15px;
 }
 
