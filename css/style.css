@@ -17,9 +17,10 @@ h2 {
 }
 
 header img {
-  height: 64px;
-  width: 64px;
+  height: 80px;
+  width: 80px;
   margin-left: 40px;
+  margin-top: 5px;
 }
 
 header {
