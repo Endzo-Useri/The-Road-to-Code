@@ -70,7 +70,7 @@ header li a:active {
 }
 
 .cols {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   background: lightgray;
   display: flex;
   width: 900px;
@@ -79,7 +79,7 @@ header li a:active {
 }
 
 .col {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   font-size: 20px;
   width: 400px;
   margin: 0 auto;
@@ -87,14 +87,14 @@ header li a:active {
 }
 
 .foot-update {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 600px;
   padding: 10px 0;
   margin: 100px auto;
 }
 
 .foot-update p {
-  border: 3px solid green;
+  /* border: 3px solid green; */
   text-align: center;
   width: 550px;
   margin: 0 auto;
