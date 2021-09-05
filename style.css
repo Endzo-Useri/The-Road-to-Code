@@ -17,10 +17,10 @@ h2 {
 }
 
 header img {
-  height: 84px;
-  width: 80px;
-  margin-left: 40px;
-  margin-top: 0;
+  height: 60px;
+  width: 60px;
+  margin-top: 5px;
+	padding-left: 40px;
 }
 
 header {
