@@ -24,7 +24,7 @@ header img {
 }
 
 header {
-  background: lightgray;
+  background: rgba(211, 211, 211, 0.7);
   position: fixed;
   top: 0;
   left: 0;
