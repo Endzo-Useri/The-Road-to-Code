@@ -56,12 +56,12 @@ header li a {
 header li a:hover,
 header li a:focus {
   background: rgb(66, 48, 48);
-  padding: 10px 25px;
+  padding: .5em 1.5em;
 }
 
 header li a:active {
   background: rgb(124, 52, 52);
-  padding: 6px 15px;
+  padding: .3em 1.3em;
 }
 
 .intro {
@@ -75,22 +75,22 @@ header li a:active {
   display: flex;
   width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.4em;
 }
 
 .col {
   /* border: 3px solid blue; */
-  font-size: 20px;
+  font-size: 1.4em;
   width: 400px;
   margin: 0 auto;
-  padding: 10px;
+  padding: .5em;
 }
 
 .foot-update {
   /* border: 2px solid red; */
   width: 600px;
-  padding: 10px 0;
-  margin: 100px auto;
+  padding: .5em 0;
+  margin: 6em auto;
 }
 
 .foot-update p {
@@ -98,5 +98,5 @@ header li a:active {
   text-align: center;
   width: 550px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: .5em 0;
 }
