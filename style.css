@@ -65,6 +65,7 @@ header li a:active {
 }
 
 .intro {
+	font-size: 1.1rem;
   width: 500px;
   margin: 0 auto;
 }
@@ -80,7 +81,7 @@ header li a:active {
 
 .col {
   /* border: 3px solid blue; */
-  font-size: 1.4em;
+  font-size: 1.1em;
   width: 400px;
   margin: 0 auto;
   padding: .5em;
