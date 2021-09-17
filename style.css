@@ -17,10 +17,10 @@ h2 {
 }
 
 header img {
-  height: 60px;
-  width: 60px;
-  margin-top: 5px;
-	padding-left: 40px;
+  height: 4rem;
+  width: 4rem;
+  margin-top: .25em;
+	padding-left: 2.5em;
 }
 
 header {
@@ -29,10 +29,10 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 5rem;
   display: flex;
   align-items: center;
-  box-shadow: 5px 5px 25px 5px #333;
+  box-shadow: .4rem .4rem 1.5rem .4rem #333;
 }
 
 header * {
@@ -40,7 +40,7 @@ header * {
 }
 
 header li {
-  margin: 20px;
+  margin: 1.4em;
 }
 
 header li a {
@@ -48,9 +48,9 @@ header li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px 20px;
+  padding: .4em 1.4em;
   border: gray;
-  border-radius: 50px;
+  border-radius: 3rem;
 }
 
 header li a:hover,
