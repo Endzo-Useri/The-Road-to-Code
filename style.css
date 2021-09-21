@@ -91,6 +91,7 @@ header li a:active {
 
 .foot-update {
   /* border: 2px solid red; */
+	background: lightgray;
   width: 600px;
   padding: .5em 0;
   margin: 6em auto;
