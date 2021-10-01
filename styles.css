@@ -1,5 +1,5 @@
 body {
-  background: rgba(0, 0, 0, 0.2);
+  background: hsla(0, 0%, 0%, 0.2);
   color: #404040;
   font-family: "Roboto", sans-serif;
   height: 125vh;
@@ -9,7 +9,7 @@ body {
 
 h1,
 h2 {
-  /* background: #00ccbb56; */
+  background: hsla(175, 100%, 40%, 0.337);
   text-align: center;
   margin: 1.4em auto;
   padding: 1.4em 0;
@@ -26,7 +26,7 @@ header img {
 }
 
 header {
-  background: rgba(211, 211, 211, 0.7);
+  background: hsla(0, 0%, 83%, 0.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -38,6 +38,7 @@ header {
 }
 
 header * {
+	border: 3px solid hsl(0, 0%, 50%);
   display: inline;
 }
 
