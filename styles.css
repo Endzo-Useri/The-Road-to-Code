@@ -45,7 +45,7 @@ header li {
   margin: 1.4em;
 }
 
-header li a {
+.nav-link {
 	display: inline-block;
   background: hsl(0, 0%, 50%);
   color: #fff;
