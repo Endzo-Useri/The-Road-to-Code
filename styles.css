@@ -9,7 +9,7 @@ body {
 
 h1,
 h2 {
-  background: hsla(175, 100%, 40%, 0.337);
+  /* background: hsla(175, 100%, 40%, 0.337); */
   text-align: center;
   margin: 1.4em auto;
   padding: 1.4em 0;
@@ -38,7 +38,7 @@ header {
 }
 
 header * {
-	border: 3px solid hsl(0, 0%, 50%);
+	/* border: 3px solid hsl(0, 0%, 50%); */
   display: inline;
 }
 
@@ -50,20 +50,22 @@ header * {
   font-weight: bold;
   margin: 1.4em;
   padding: .4em 1.4em;
-  border: gray;
+  border: hsl(0, 0%, 50%);
   border-radius: 3rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
 	transform: scale(1);
 	transition: transform 200ms;
 }
 
 header li a:hover,
 header li a:focus {
-  background: hsl(0, 20%, 30%);
+  background: hsl(0, 0%, 40%);
 	transform: scale(1.1);
 }
 
 header li a:active {
-  background: hsl(0, 10%, 50%);
+  background: hsl(0, 0%, 60%);
 	transform: scale(1);
 }
 
