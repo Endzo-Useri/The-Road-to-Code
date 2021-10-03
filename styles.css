@@ -79,7 +79,7 @@ header li a:active {
   /* border: 5px solid green; */
   background: hsl(0, 0%, 83%);
   display: flex;
-	flex-direction: center;
+	justify-content: center;
   width: 900px;
   margin: 0 auto;
   padding: 1.4em;
