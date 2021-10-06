@@ -69,6 +69,17 @@ header li a:active {
 	transform: scale(1);
 }
 
+.toHome {
+	background: hsl(0, 0%, 50%);
+	color: #fff;
+	font-weight: 700;
+	padding: .4em 1.4em;
+	border-radius: 3rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .0625rem;
+}
+
 .intro {
 	font-size: 1.1rem;
   width: 500px;
