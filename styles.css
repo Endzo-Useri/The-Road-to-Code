@@ -71,8 +71,8 @@ header * {
 
 .to-home {
 	background: hsl(0, 0%, 50%);
-	color: #fff;
-	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+	font-weight: bold;
 	margin: 1.4em;
 	padding: .4em 1.4em;
 	border-radius: 3rem;
