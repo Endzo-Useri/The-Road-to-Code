@@ -127,6 +127,8 @@ body {
     padding: .25em;
     
     display: flex;
+		flex-direction: column;
+		align-items: flex-start;
 		height: 50vh;
 }
 
@@ -141,8 +143,6 @@ body {
 
 .flex-item-1 {
     background: plum;
-		align-self: flex-start;
-
 }
 
 .flex-item-2 {
