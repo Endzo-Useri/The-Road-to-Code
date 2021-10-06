@@ -127,6 +127,7 @@ body {
     padding: .25em;
     
     display: flex;
+		height: 50vh;
 }
 
 .flex-item {
@@ -140,6 +141,7 @@ body {
 
 .flex-item-1 {
     background: plum;
+		align-self: flex-start;
 
 }
 
