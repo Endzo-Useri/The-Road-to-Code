@@ -109,9 +109,22 @@ header * {
   padding: .5em 0;
 }
 
+.intro-flexbox {
+	background: hsl(0, 0%, 50%);
+	color: hsl(0, 0%, 80%);
+	padding: .5em;
+	text-decoration: none;
+	border-radius: 3em;
+	text-transform: uppercase;
+}
+
+.intro-flexbox:hover {
+	color: hsl(0, 70%, 30%);
+}
+
 /* Understanding flexbox */
 
-* { box-sizing: border-box; }
+/* * { box-sizing: border-box; }
 
 body {
     margin: 0;
@@ -151,4 +164,4 @@ body {
 
 .flex-item-3 {
     
-}
+} */
