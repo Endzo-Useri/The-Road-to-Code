@@ -69,31 +69,6 @@ header * {
 	transform: scale(1);
 }
 
-.to-home {
-	background: hsl(0, 0%, 50%);
-	color: hsl(0, 0%, 100%);
-	font-weight: bold;
-	margin: 1.4em;
-	padding: .4em 1.4em;
-	border-radius: 3rem;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: .0625rem;
-	transform: scale(1);
-	transition: transform 200ms;
-}
-
-.to-home:hover,
-.to-home:focus {
-	background: hsl(0, 0%, 40%);
-	transform: scale(1.1);
-}
-
-.to-home:active {
-	background: hsl(0, 0%, 60%);
-	transform: scale(1);
-}
-
 .intro {
 	font-size: 1.1rem;
   width: 500px;
