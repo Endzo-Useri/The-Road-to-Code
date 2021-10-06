@@ -89,6 +89,11 @@ header * {
 	transform: scale(1.1);
 }
 
+.to-home:active {
+	background: hsl(0, 0%, 60%);
+	transform: scale(1);
+}
+
 .intro {
 	font-size: 1.1rem;
   width: 500px;
