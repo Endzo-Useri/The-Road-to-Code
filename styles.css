@@ -58,13 +58,13 @@ header * {
 	transition: transform 200ms;
 }
 
-header li a:hover,
-header li a:focus {
+.nav-link:hover,
+.nav-link:focus {
   background: hsl(0, 0%, 40%);
 	transform: scale(1.1);
 }
 
-header li a:active {
+.nav-link:active {
   background: hsl(0, 0%, 60%);
 	transform: scale(1);
 }
@@ -73,11 +73,20 @@ header li a:active {
 	background: hsl(0, 0%, 50%);
 	color: #fff;
 	font-weight: 700;
+	margin: 1.4em;
 	padding: .4em 1.4em;
 	border-radius: 3rem;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: .0625rem;
+	transform: scale(1);
+	transition: transform 200ms;
+}
+
+.toHome:hover,
+.toHome:focus {
+	background: hsl(0, 0%, 40%);
+	transform: scale(1.1);
 }
 
 .intro {
