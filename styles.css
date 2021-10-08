@@ -1,4 +1,4 @@
-body {
+/* body {
   background: hsla(0, 0%, 0%, 0.2);
   color: #404040;
   font-family: "Roboto", sans-serif;
@@ -88,7 +88,6 @@ header * {
 }
 
 .foot-update {
-  /* border: 2px solid red; */
 	background: hsl(0, 0%, 83%);
   width: 600px;
   padding: .5em 0;
@@ -96,11 +95,22 @@ header * {
 }
 
 .foot-update p {
-  /* border: 3px solid green; */
   text-align: center;
   width: 550px;
   margin: 0 auto;
   padding: .5em 0;
+} */
+
+/* ===================== */
+
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	background: #2C73D2;
+	color: #fff;
+	text-align: center;
 }
 
 .intro-flexbox {
@@ -110,26 +120,18 @@ header * {
 	text-decoration: none;
 	border-radius: 3em;
 	text-transform: uppercase;
+	transform: scale(1);
+	transition: transform 200ms;
 }
 
 .intro-flexbox:hover {
 	color: hsl(0, 70%, 30%);
-}
-
-/* Understanding flexbox */
-
-/* * { box-sizing: border-box; }
-
-body {
-    margin: 0;
-    background: #2C73D2;
-    color: #fff;
-    text-align: center;
+	transform: scale(1.1);
 }
 
 .flex-container {
-    border: 10px solid #F9F871;
-    width: 80%;
+	border: 10px solid #F9F871;
+	width: 80%;
     margin: 0 auto;
     padding: .25em;
     
@@ -158,4 +160,4 @@ body {
 
 .flex-item-3 {
     
-} */
+}
