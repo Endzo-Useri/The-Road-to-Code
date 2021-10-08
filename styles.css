@@ -115,8 +115,9 @@ body {
 }
 
 .intro-flexbox {
+	display: inline-block;
 	background: hsl(0, 0%, 50%);
-	color: hsl(0, 0%, 80%);
+	color: hsl(0, 0%, 20%);
 	padding: .5em;
 	text-decoration: none;
 	border-radius: 3em;
@@ -125,9 +126,17 @@ body {
 	transition: transform 200ms;
 }
 
-.intro-flexbox:hover {
-	color: hsl(0, 70%, 30%);
+.intro-flexbox:hover,
+.intro-flexbox:focus {
+	background: hsl(0, 0%, 30%);
+	color: hsl(0, 0%, 80%);
 	transform: scale(1.1);
+}
+
+.intro-flexbox:active {
+	background: hsl(0, 0%, 50%);
+	color: hsl(0, 0%, 20%);
+	transform: scale(1);
 }
 
 .flex-container {
