@@ -9,14 +9,11 @@ body {
 
 h1,
 h2 {
-  /* background: hsla(175, 100%, 40%, 0.337); */
   text-align: center;
   margin: 1.4em auto;
   padding: 1.4em 0;
   max-width: 500px;
 }
-
-/* Navigation */
 
 header img {
   height: 4rem;
@@ -38,7 +35,6 @@ header {
 }
 
 header * {
-	/* border: 3px solid hsl(0, 0%, 50%); */
   display: inline;
 }
 
@@ -76,7 +72,6 @@ header * {
 }
 
 .cols {
-  /* border: 5px solid green; */
   background: hsl(0, 0%, 83%);
   display: flex;
 	justify-content: center;
@@ -86,7 +81,6 @@ header * {
 }
 
 .col {
-  /* border: 3px solid blue; */
   font-size: 1.1em;
   width: 400px;
   margin: 0 auto;
