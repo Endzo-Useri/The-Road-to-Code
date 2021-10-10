@@ -67,7 +67,7 @@ header * {
 
 .intro {
 	font-size: 1.1rem;
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ header * {
   background: hsl(0, 0%, 83%);
   display: flex;
 	justify-content: center;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 1.4em;
 }
