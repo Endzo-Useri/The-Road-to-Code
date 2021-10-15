@@ -24,7 +24,7 @@ body {
 .intro-flexbox:focus {
 	background: hsl(0, 0%, 30%);
 	color: hsl(0, 0%, 80%);
-	transform: scale(1.05);
+	transform: scale(1.01);
 }
 
 .intro-flexbox:active {
@@ -56,12 +56,4 @@ body {
 
 .flex-item-1 {
     background: plum;
-}
-
-.flex-item-2 {
-    
-}
-
-.flex-item-3 {
-    
 }
