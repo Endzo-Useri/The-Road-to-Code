@@ -1,2 +1,2 @@
 const grid = document.querySelector(".grid")
-const start = document.querySelector("#start")
+const startBtn = document.querySelector("#start")
