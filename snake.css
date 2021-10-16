@@ -11,7 +11,7 @@ body {
 	border: 3px solid black;
 }
 
-.grid div {
+.square {
 	width: 20px;
 	height: 20px;
 }
