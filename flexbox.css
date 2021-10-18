@@ -40,10 +40,11 @@ body {
 	padding: .25em;
 	
 	display: flex;
-	flex-direction: row;
+	/* flex-direction: row; */
 	/* row is default behavior, row-reverse, column, column-reverse */
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	/* nowrap is default behavior */
+	flex-flow: row-reverse wrap;
 	/* align-items: flex-start; */
 	/* height: 50vh; */
 }
