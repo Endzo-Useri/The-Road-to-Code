@@ -39,15 +39,17 @@ body {
 	margin: 0 auto;
 	padding: .25em;
 	/* min-height: 50vh; */
+	min-height: 80vh;
 	
 	display: flex;
 	/* flex-direction: row; */
 	/* row is default behavior, row-reverse, column, column-reverse */
 	/* flex-wrap: wrap; */
 	/* nowrap is default behavior */
-	/* flex-flow: row-reverse wrap; */
+	flex-flow: wrap;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: flex-end;
+	align-content: flex-end;
 }
 
 .big {
