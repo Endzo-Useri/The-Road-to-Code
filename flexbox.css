@@ -35,24 +35,29 @@ body {
 
 .flex-container {
 	border: 10px solid #F9F871;
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding: .25em;
+	/* min-height: 50vh; */
 	
 	display: flex;
 	/* flex-direction: row; */
 	/* row is default behavior, row-reverse, column, column-reverse */
 	/* flex-wrap: wrap; */
 	/* nowrap is default behavior */
-	flex-flow: row-reverse wrap;
-	/* align-items: flex-start; */
-	/* height: 50vh; */
+	/* flex-flow: row-reverse wrap; */
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.big {
+	font-size: 2em;
 }
 
 .flex-item {
     background: #8BEE86;
-    margin: .5em;
-    padding: .5em;
+    margin: 25px;
+    padding: 25px;
     color: #424656;
     
     /* width: 200px; */
