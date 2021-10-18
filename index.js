@@ -2,7 +2,7 @@ const grid = document.querySelector(".grid")
 const startBtn = document.getElementById("start")
 const score = document.getElementById("score")
 let squares = []
-let currentSnake = [0, 1, 2]
+let currentSnake = [2, 1, 0]
 
 function createGrid() {
 	for (let i = 0; i < 100; i++) {
