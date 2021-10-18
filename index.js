@@ -15,3 +15,9 @@ function createGrid() {
 createGrid()
 
 currentSnake.forEach(index => squares[index].classList.add("snake"))
+
+function move() {
+	const tail = currentSnake.pop()
+	squares[tail].classList.remove("snake")
+}
+move()
