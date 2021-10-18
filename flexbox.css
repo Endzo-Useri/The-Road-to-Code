@@ -13,9 +13,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	padding: .25em;
-	/* min-height: 50vh; */
-	min-height: 80vh;
-	
+	/* min-height: 50vh; */	
 	display: flex;
 	/* flex-direction: row; */
 	/* row is default behavior, row-reverse, column, column-reverse */
