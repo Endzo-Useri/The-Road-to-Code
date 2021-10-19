@@ -66,21 +66,26 @@ header * {
 }
 
 .intro {
+	border: 3px solid green;
 	font-size: 1.1rem;
   max-width: 500px;
   margin: 0 auto;
 }
 
 .cols {
+	border: 3px solid red;
   background: hsl(0, 0%, 83%);
   display: flex;
-	justify-content: center;
+	flex-direction: column;
+	flex-flow: wrap;
+	/* justify-content: center; */
   max-width: 900px;
   margin: 0 auto;
   padding: 1.4em;
 }
 
 .col {
+	border: 3px solid blue;
   font-size: 1.1em;
   width: 400px;
   margin: 0 auto;
@@ -88,15 +93,19 @@ header * {
 }
 
 .foot-update {
+	border: 3px solid yellow;
 	background: hsl(0, 0%, 83%);
-  width: 600px;
+	display: flex;
+	flex-direction: column;
+  max-width: 600px;
   padding: .5em 0;
   margin: 6em auto;
 }
 
 .foot-update p {
+	border: 3px solid hotpink;
   text-align: center;
-  width: 550px;
+  max-width: 550px;
   margin: 0 auto;
   padding: .5em 0;
 }
