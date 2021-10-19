@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	background: #2C73D2;
+	background: hsl(214, 65%, 50%);
 	color: #fff;
 	font-family: "Roboto", sans-serif;
 	text-align: center;
@@ -62,19 +62,20 @@ body {
 
 .intro-flexbox {
 	display: inline-block;
-	background: hsl(0, 0%, 50%);
-	color: hsl(0, 0%, 100%, .7);
+	background: hsl(214, 90%, 30%);
+	color: hsl(0, 0%, 100%, .8);
 	padding: .5em;
 	text-decoration: none;
 	border-radius: 3em;
 	text-transform: uppercase;
+	letter-spacing: .1rem;
 	transform: scale(1);
 	transition: transform 200ms;
 }
 
 .intro-flexbox:hover,
 .intro-flexbox:focus {
-	background: hsl(0, 0%, 30%);
+	background: hsl(214, 100%, 35%);
 	color: hsl(0, 0%, 80%);
 	transform: scale(1.01);
 }
