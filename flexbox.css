@@ -63,7 +63,7 @@ body {
 .intro-flexbox {
 	display: inline-block;
 	background: hsl(0, 0%, 50%);
-	color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%, .7);
 	padding: .5em;
 	text-decoration: none;
 	border-radius: 3em;
