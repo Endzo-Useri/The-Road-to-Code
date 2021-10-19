@@ -3,13 +3,13 @@
 body {
 	margin: 0;
 	background: hsl(214, 65%, 50%);
-	color: #fff;
+	color: hsl(0, 0%, 100%);
 	font-family: "Roboto", sans-serif;
 	text-align: center;
 }
 
 .flex-container {
-	border: 10px solid #F9F871;
+	border: 10px solid hsl(60, 92%, 71%);
 	max-width: 80%;
 	margin: 0 auto;
 	padding: .25em;
@@ -35,16 +35,16 @@ body {
 } */
 
 .flex-item {
-	background: #8BEE86;
+	background: hsl(117, 75%, 73%);
 	margin: .5em;
 	padding: .5em;
-	color: #424656;
+	color: hsl(228, 13%, 30%);
 	
 	width: 200px;
 }
 
 .flex-item-1 {
-	background: plum;
+	background: hsl(300, 47%, 75%);
 }
 
 .flex-item-2 {
