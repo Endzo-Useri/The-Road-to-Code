@@ -67,19 +67,19 @@ header * {
 }
 
 .container {
-	border: 4px solid orange;
+	/* border: 4px solid orange; */
 	max-width: 600px;
 	margin: 0 auto;
 }
 
 .intro {
-	border: 3px solid green;
+	/* border: 3px solid green; */
   max-width: 500px;
 	margin: .5em auto;
 }
 
 .cols {
-	border: 4px solid red;
+	/* border: 4px solid red; */
   background: hsl(0, 0%, 83%);
   display: flex;
 	flex-direction: column;
@@ -91,18 +91,19 @@ header * {
 }
 
 .col {
-	border: 3px solid blue;
+	/* border: 3px solid blue; */
   max-width: 400px;
   margin: 0 auto;
   padding: .5em;
 }
 
 .foot-update {
-	border: 4px solid yellow;
+	/* border: 4px solid yellow; */
 	background: hsl(0, 0%, 83%);
 	text-align: center;
   max-width: 500px;
   margin: 6em auto;
+	padding: .5em 0;
 }
 
 @media (max-width: 650px) {
