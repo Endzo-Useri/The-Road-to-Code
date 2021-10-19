@@ -15,7 +15,7 @@ body {
 	padding: .25em;
 	/* min-height: 50vh; */	
 	display: flex;
-	/* flex-direction: row; */
+	/* flex-direction: column; */
 	/* row is default behavior, row-reverse, column, column-reverse */
 	/* flex-wrap: wrap; */
 	/* nowrap is default behavior */
@@ -26,7 +26,11 @@ body {
 	/* align-content: space-between; */
 }
 
-
+/* @media (min-width: 600px) {
+	.flex-container {
+		flex-direction: row;
+	}
+} */
 
 .flex-item {
 	background: #8BEE86;
@@ -40,7 +44,7 @@ body {
 .flex-item-1 {
 	background: plum;
 	/* flex-grow: 1; */
-	flex-basis: 100px;
+	flex-basis: 400px;
 }
 
 .flex-item-2 {
