@@ -13,8 +13,10 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	padding: .25em;
-	/* min-height: 50vh; */	
 	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 50vh;
 	/* flex-direction: column; */
 	/* row is default behavior, row-reverse, column, column-reverse */
 	/* flex-wrap: wrap; */
@@ -43,8 +45,6 @@ body {
 
 .flex-item-1 {
 	background: plum;
-	/* flex-grow: 1; */
-	flex-basis: 400px;
 }
 
 .flex-item-2 {
@@ -53,6 +53,7 @@ body {
 
 .flex-item-3 {
 	/* flex-grow: 5; */
+	margin-top: auto;
 }
 
 /* ==========
