@@ -10,7 +10,7 @@ body {
 
 .flex-container {
 	border: 10px solid #F9F871;
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 	padding: .25em;
 	display: flex;
@@ -63,7 +63,7 @@ body {
 .intro-flexbox {
 	display: inline-block;
 	background: hsl(214, 90%, 30%);
-	color: hsl(0, 0%, 100%, .8);
+	color: hsl(0, 0%, 100%, .7);
 	padding: .5em;
 	text-decoration: none;
 	border-radius: 3em;
@@ -76,12 +76,13 @@ body {
 .intro-flexbox:hover,
 .intro-flexbox:focus {
 	background: hsl(214, 100%, 35%);
-	color: hsl(0, 0%, 80%);
+	color: hsl(0, 0%, 80%, .9);
+	/* border: 3px solid hsl(214, 90%, 30%); */
 	transform: scale(1.01);
 }
 
 .intro-flexbox:active {
-	background: hsl(0, 0%, 50%);
-	color: hsl(0, 0%, 20%);
+	background: hsl(214, 90%, 30%);
+	color: hsl(0, 0%, 100%, .7);
 	transform: scale(1);
 }
