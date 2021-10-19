@@ -26,26 +26,30 @@ body {
 	/* align-content: space-between; */
 }
 
+
+
 .flex-item {
 	background: #8BEE86;
 	margin: .5em;
 	padding: .5em;
 	color: #424656;
 	
-	/* width: 200px; */
+	width: 200px;
 }
 
-/* .flex-item-1 {
+.flex-item-1 {
 	background: plum;
-} */
+	/* flex-grow: 1; */
+	flex-basis: 100px;
+}
 
-/* .flex-item-2 {
-	
+.flex-item-2 {
+	/* flex-grow: 2; */
 }
 
 .flex-item-3 {
-	
-} */
+	/* flex-grow: 5; */
+}
 
 /* ==========
 		Button
