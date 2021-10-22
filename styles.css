@@ -69,7 +69,7 @@ header * {
 .container {
 	/* border: 4px solid orange; */
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 0 auto;;
 }
 
 .intro {
