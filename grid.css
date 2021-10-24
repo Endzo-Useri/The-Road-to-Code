@@ -1,0 +1,10 @@
+html, body {
+	background: lightblue;
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+}
+
+body {
+	display: grid;
+}
