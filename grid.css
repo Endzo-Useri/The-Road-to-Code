@@ -1,15 +1,35 @@
-html, body {
+/* html, body {
 	background: lightblue;
 	margin: 0px;
 	padding: 0px;
 }
 
 body {
-	/* border: 5px solid red; */
+	border: 5px solid red;
 	display: grid;
 	grid-template: 150px 150px 100px  / 350px 300px 300px;
 }
 
 h1, p {
-	border: 3px solid green;
+	border: 3px solid orangered;
+} */
+
+.grid {
+	background: green;
+  display: grid;
+  grid-template: 100px 100px 100px / 200px 200px 200px;
+}
+
+.grid-item {
+  background: #B823C1;
+  color: white;
+  padding: 1em 2em;
+  border: 2px solid purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
