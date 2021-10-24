@@ -15,12 +15,13 @@ h1, p {
 } */
 
 .grid {
-	background: green;
+	background: hsl(0, 0%, 30%);
   display: grid;
-  grid-template: 100px 100px 100px / 200px 200px 200px 200px;
+  grid-template-columns: 150px 150px 200px;
 }
 
 .grid-item {
+	background: #b823c1;
   color: white;
   padding: 1em 2em;
   border: 2px solid purple;
@@ -29,14 +30,17 @@ h1, p {
   justify-content: center;
 }
 
-.one {
-	background: #b823c1;
-	grid-row: 2 / 3;
-	grid-column: 1 / 2;
+.big {
+	padding: 3em 2em;
+	background: #ff5670;
+}
+
+/* .one {
+	grid-column: 2 / span 2;
+	grid-row: span 2;
 }
 
 .two {
 	background: #ff5670;
-	grid-row: 1 / 2;
-	grid-column: 2 / 4;
-}
+	grid-column: 1 / -2;
+} */
