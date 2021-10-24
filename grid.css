@@ -6,7 +6,11 @@ html, body {
 }
 
 body {
+	border: 5px solid red;
 	display: grid;
-	grid-template-columns: 400px 200px 200px;
-	grid-gap: 3rem 5rem;
+	grid-template: 150px 200px  / 350px 300px 300px;
+}
+
+h1, p {
+	border: 5px solid green;
 }
