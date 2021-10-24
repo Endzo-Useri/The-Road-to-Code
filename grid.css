@@ -17,7 +17,7 @@ h1, p {
 .grid {
 	background: green;
   display: grid;
-  grid-template: 100px 100px 100px / 200px 200px 200px;
+  grid-template: 100px 100px 100px / 200px 200px 200px 200px;
 }
 
 .grid-item {
@@ -31,8 +31,12 @@ h1, p {
 
 .one {
 	background: #b823c1;
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
 }
 
 .two {
 	background: #ff5670;
+	grid-row: 1 / 2;
+	grid-column: 2 / 4;
 }
