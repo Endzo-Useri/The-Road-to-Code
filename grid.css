@@ -21,13 +21,18 @@ h1, p {
 }
 
 .grid-item {
-  background: #B823C1;
   color: white;
   padding: 1em 2em;
   border: 2px solid purple;
   display: flex;
   align-items: center;
   justify-content: center;
-	grid-row: 2 / 4;
-	grid-column: 2 / 4;
+}
+
+.one {
+	background: #b823c1;
+}
+
+.two {
+	background: #ff5670;
 }
