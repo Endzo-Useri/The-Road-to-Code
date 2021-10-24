@@ -28,8 +28,6 @@ h1, p {
   display: flex;
   align-items: center;
   justify-content: center;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-row: 2 / 4;
+	grid-column: 2 / 4;
 }
