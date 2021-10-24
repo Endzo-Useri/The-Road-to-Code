@@ -2,15 +2,14 @@ html, body {
 	background: lightblue;
 	margin: 0px;
 	padding: 0px;
-	height: 100vh;
 }
 
 body {
-	border: 5px solid red;
+	/* border: 5px solid red; */
 	display: grid;
-	grid-template: 150px 200px  / 350px 300px 300px;
+	grid-template: 150px 150px 100px  / 350px 300px 300px;
 }
 
 h1, p {
-	border: 5px solid green;
+	border: 3px solid green;
 }
