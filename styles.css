@@ -61,7 +61,7 @@ header * {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus-visible {
   background: hsl(0, 0%, 40%);
 	transform: scale(1.1);
 }
