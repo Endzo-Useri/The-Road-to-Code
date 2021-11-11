@@ -63,6 +63,7 @@ header * {
 .nav-link:hover,
 .nav-link:focus-visible {
   background: hsl(0, 0%, 40%);
+	outline-offset: .5rem;
 	transform: scale(1.1);
 }
 
