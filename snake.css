@@ -1,8 +1,26 @@
 html,
 body {
+	/* border: 3px solid red; */
 	background: lightblue;
-	margin: 10;
-	padding: 10;
+	margin: 0;
+	padding: 5em 7em;
+}
+
+h1,
+h2 {
+	margin: 0;
+}
+
+h1 {
+	margin-bottom: .3em;
+}
+
+h2 {
+	margin-bottom: 1em;
+}
+
+button {
+	margin: 1em 0;
 }
 
 .grid {
