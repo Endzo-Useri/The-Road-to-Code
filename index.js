@@ -26,7 +26,7 @@ function move() {
 }
 move()
 
-// let timerId = setInterval(move, 1000)
+setInterval(move, 1000)
 
 // function control(e) {
 // 	if (e.keyCode === 39) {
