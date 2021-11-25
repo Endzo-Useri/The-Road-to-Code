@@ -16,31 +16,31 @@ function createGrid() {
 }
 createGrid()
 
-currentSnake.forEach(index => squares[index].classList.add("snake"))
+// currentSnake.forEach(index => squares[index].classList.add("snake"))
 
-function move() {
-	const tail = currentSnake.pop()
-	squares[tail].classList.remove("snake")
-	currentSnake.unshift(currentSnake[0] + direction)
-	squares[currentSnake[0]].classList.add("snake")
-}
-move()
+// function move() {
+// 	const tail = currentSnake.pop()
+// 	squares[tail].classList.remove("snake")
+// 	currentSnake.unshift(currentSnake[0] + direction)
+// 	squares[currentSnake[0]].classList.add("snake")
+// }
+// move()
 
-let timerId = setInterval(move, 1000)
+// let timerId = setInterval(move, 1000)
 
-function control(e) {
-	if (e.keyCode === 39) {
-			console.log('right pressed')
-			direction = 1
-	} else if (e.keyCode === 38) {
-			console.log('up pressed')
-			direction = -width
-	} else if (e.keyCode === 37) {
-			console.log('left pressed')
-			direction = -1
-	} else if (e.keyCode === 40) {
-			console.log('down pressed')
-			direction = +width
-	}
-}
-document.addEventListener('keyup', control)
+// function control(e) {
+// 	if (e.keyCode === 39) {
+// 			console.log('right pressed')
+// 			direction = 1
+// 	} else if (e.keyCode === 38) {
+// 			console.log('up pressed')
+// 			direction = -width
+// 	} else if (e.keyCode === 37) {
+// 			console.log('left pressed')
+// 			direction = -1
+// 	} else if (e.keyCode === 40) {
+// 			console.log('down pressed')
+// 			direction = +width
+// 	}
+// }
+// document.addEventListener('keyup', control)

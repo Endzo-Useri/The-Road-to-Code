@@ -1,14 +1,28 @@
-html,
+html {
+	border: 3px solid red;
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
 body {
-	/* border: 3px solid red; */
+	border: 3px solid red;
+	font-family: sans-serif;
+	font-size: 1em;
 	background: lightblue;
-	margin: 0;
-	padding: 5em 12em;
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 1em 12em;
 }
 
 h1,
 h2 {
 	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -20,6 +34,7 @@ h2 {
 }
 
 button {
+	font-family: inherit;
 	margin: 1em 0;
 }
 
