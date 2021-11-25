@@ -3,7 +3,7 @@ const startBtn = document.getElementById("start")
 const score = document.getElementById("score")
 let squares = []
 let currentSnake = [2, 1, 0]
-let direction = 1
+let direction = 1	
 // let width = 10
 
 function createGrid() {
@@ -26,8 +26,8 @@ function move() {
 }
 move()
 
-setInterval(move, 1000)
-
+let timerId = setInterval(move, 1000)
+// clearInterval(timerId)
 // function control(e) {
 // 	if (e.keyCode === 39) {
 // 			console.log('right pressed')
