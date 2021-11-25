@@ -1,5 +1,5 @@
 html {
-	border: 3px solid red;
+	/* border: 3px solid red; */
 	box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	border: 3px solid red;
+	/* border: 3px solid red; */
 	font-family: sans-serif;
 	font-size: 1em;
 	background: lightblue;
@@ -26,6 +26,8 @@ h2 {
 }
 
 h1 {
+	border: 3px solid purple;
+	margin-right: -1em;
 	margin-bottom: .3em;
 }
 
