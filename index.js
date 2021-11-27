@@ -27,7 +27,7 @@ function move() {
 move()
 
 let timerId = setInterval(move, 1000)
-// clearInterval(timerId)
+clearInterval(timerId)
 // function control(e) {
 // 	if (e.keyCode === 39) {
 // 			console.log('right pressed')
