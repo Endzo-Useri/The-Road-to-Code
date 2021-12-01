@@ -4,7 +4,7 @@ const score = document.getElementById("score")
 let squares = []
 let currentSnake = [2, 1, 0]
 let direction = 1	
-// let width = 10
+let width = 10
 
 function createGrid() {
 	for (let i = 0; i < 100; i++) {
