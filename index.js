@@ -27,7 +27,7 @@ function move() {
 move()
 
 let timerId = setInterval(move, 1000)
-// clearInterval(timerId)
+clearInterval(timerId)
 function control(e) {
 	if (e.keyCode === 39) {
 			console.log('right pressed')
@@ -43,4 +43,4 @@ function control(e) {
 // 			direction = +width
 	}
 }
-// document.addEventListener('keyup', control)
+document.addEventListener('keyup', control)
