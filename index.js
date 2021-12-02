@@ -9,6 +9,7 @@ let width = 10
 function createGrid() {
 	//create 100 of these elements with a for loop
 	for (let i = 0; i < 100; i++) {
+		//create element
 		const square = document.createElement("div")
 		square.classList.add("square")
 		grid.appendChild(square)
