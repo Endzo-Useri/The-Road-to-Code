@@ -15,6 +15,7 @@ function createGrid() {
 		square.classList.add("square")
     //put the element into our grid
 		grid.appendChild(square)
+    //push it into a new squares array
 		squares.push(square)
 	}
 }
