@@ -20,7 +20,7 @@ currentSnake.forEach(index => squares[index].classList.add("snake"))
 
 function move() {
 	if (
-		
+		(currentSnake[0])
 	)
 
 
