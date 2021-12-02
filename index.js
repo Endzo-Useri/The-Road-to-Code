@@ -36,7 +36,6 @@ function move() {
 
 
 
-
   //remove last element from our currentSnake array
 	const tail = currentSnake.pop()
 	//remove styling from last element
@@ -49,7 +48,13 @@ function move() {
 move()
 
 let timerId = setInterval(move, 1000)
-clearInterval(timerId)
+
+
+// 39 is right arrow
+// 38 is for the up arrow
+// 37 is for the left arrow
+// 40 is for the down arrow
+
 function control(e) {
 	if (e.keyCode === 39) {
 			console.log('right pressed')
