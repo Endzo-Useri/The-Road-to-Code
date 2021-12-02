@@ -13,6 +13,7 @@ function createGrid() {
 		const square = document.createElement("div")
     //add styling to the element
 		square.classList.add("square")
+    //put the element into our grid
 		grid.appendChild(square)
 		squares.push(square)
 	}
