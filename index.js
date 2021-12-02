@@ -43,6 +43,7 @@ function move() {
 	squares[tail].classList.remove("snake")
 	//add square in direction we are heading
 	currentSnake.unshift(currentSnake[0] + direction)
+	//add styling so we can see it
 	squares[currentSnake[0]].classList.add("snake")
 }
 move()
