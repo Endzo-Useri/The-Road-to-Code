@@ -26,9 +26,9 @@ currentSnake.forEach(index => squares[index].classList.add("snake"))
 function move() {
 	if (
 		(currentSnake[0] + width >= 100 && direction === 10) || //if snake has hit bottom
-		()//if snake has hit right wall
-		//if snake has hit left wall
-		//if snake has hit top
+		(currentSnake[0] % width === 9 && direction === 1) || //if snake has hit right wall
+		(currentSnake[0] % width === 0 && direction === -1) || //if snake has hit left wall
+		()//if snake has hit top
 	)
 	return clearInterval(timerId)
 
@@ -48,7 +48,7 @@ function move() {
 move()
 
 let timerId = setInterval(move, 1000)
-
+clearInterval(timerId)
 
 // 39 is right arrow
 // 38 is for the up arrow
