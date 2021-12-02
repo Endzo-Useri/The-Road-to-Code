@@ -21,8 +21,11 @@ currentSnake.forEach(index => squares[index].classList.add("snake"))
 function move() {
 	if (
 		(currentSnake[0] + width >= 100 && direction === 10) ||
-		()
+		()//if snake has hit right wall
+		//if snake has hit left wall
+		//if snake has hit top
 	)
+	return clearInterval(timerId)
 
 
 
