@@ -8,7 +8,7 @@ const width = 10
 
 function createGrid() {
 	//create 100 of these elements with a for loop
-	for (let i = 0; i < 100; i++) {
+	for (let i = 0; i < width*width; i++) {
 		//create element
 		const square = document.createElement("div")
     //add styling to the element
