@@ -7,6 +7,7 @@ let direction = 1
 let width = 10
 
 function createGrid() {
+	//create 100 of these elements with a for loop
 	for (let i = 0; i < 100; i++) {
 		const square = document.createElement("div")
 		square.classList.add("square")
@@ -20,7 +21,7 @@ currentSnake.forEach(index => squares[index].classList.add("snake"))
 
 function move() {
 	if (
-		(currentSnake[0] + width >= 100 && direction === 10) ||
+		(currentSnake[0] + width >= 100 && direction === 10) || //if snake has hit bottom
 		()//if snake has hit right wall
 		//if snake has hit left wall
 		//if snake has hit top
