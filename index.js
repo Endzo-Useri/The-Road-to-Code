@@ -37,6 +37,7 @@ function move() {
 
 
 
+  //remove last element from our currentSnake array
 	const tail = currentSnake.pop()
 	squares[tail].classList.remove("snake")
 	currentSnake.unshift(currentSnake[0] + direction)
