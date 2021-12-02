@@ -28,7 +28,7 @@ function move() {
 		(currentSnake[0] + width >= 100 && direction === 10) || //if snake has hit bottom
 		(currentSnake[0] % width === 9 && direction === 1) || //if snake has hit right wall
 		(currentSnake[0] % width === 0 && direction === -1) || //if snake has hit left wall
-		(currentSnake[0] - width < 0 && direction === -10) || //if snake has hit  top
+		(currentSnake[0] - width < 0 && direction === -10) || //if snake has hit top
 	)
 	return clearInterval(timerId)
 
