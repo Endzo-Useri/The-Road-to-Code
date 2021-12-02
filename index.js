@@ -41,6 +41,7 @@ function move() {
 	const tail = currentSnake.pop()
 	//remove styling from last element
 	squares[tail].classList.remove("snake")
+	//add square in direction we are heading
 	currentSnake.unshift(currentSnake[0] + direction)
 	squares[currentSnake[0]].classList.add("snake")
 }
