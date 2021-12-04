@@ -3,8 +3,7 @@ html {
 }
 
 *,
-*:after,
-*:before {
+*:afbtn {
 	box-sizing: border-box;
 }
 
@@ -69,7 +68,7 @@ body {
 		Button
 	 ==========	 */
 
-.intro-flexbox {
+.btn {
 	display: inline-block;
 	background: hsl(214, 90%, 30%);
 	color: hsl(0, 0%, 100%, .7);
@@ -78,18 +77,17 @@ body {
 	border-radius: 3rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
-	transform: scale(1);
-	transition: transform 200ms;
+	transition: transform 300ms ease-in-out;
 }
 
-.intro-flexbox:hover,
-.intro-flexbox:focus {
+.btn:hover,
+.btn:focus {
 	background: hsl(214, 100%, 35%);
 	color: hsl(0, 0%, 80%, .9);
-	transform: scale(1.01);
+	transform: scale(1.05);
 }
 
-.intro-flexbox:active {
+.btn:active {
 	background: hsl(214, 90%, 30%);
 	color: hsl(0, 0%, 100%, .7);
 	transform: scale(1);
