@@ -24,8 +24,8 @@ body {
 }
 
 .container {
-  width: 80%;
-  max-width: 750px;
+  /* width: 80%; */
+  /* max-width: 750px; */
   margin: 0 auto;
   background: #23424a;
   color: white;
@@ -34,4 +34,10 @@ body {
 
 .intro-content {
   width: 50%;
+	margin: 0 auto;
+}
+
+.more-content {
+  width: 50%;
+	margin: 0 auto;
 }
