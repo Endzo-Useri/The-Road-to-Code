@@ -2,14 +2,12 @@ html {
 	box-sizing: border-box;
 }
 
-*,
-*:active,
-*:before {
+* {
 	box-sizing: inherit;
 }
 
 body {
-	border: 5px solid red;
+	/* border: 5px solid red; */
 	margin: 0;
 }
 
