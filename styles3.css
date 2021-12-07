@@ -46,4 +46,11 @@ h1 {
 	padding: .75em 2em;
 	border-radius: 100px;
 	border: none;
+	transition: transform 300ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus-visible {
+	opacity: .75;
+	transform: scale(1.05);
 }
