@@ -11,3 +11,13 @@ body {
 	font-family: roboto;
 }
 
+.intro {
+	background: hsla(184, 73%, 10%, 1);
+	color: #fff;
+}
+
+.container {
+	width: 80%;
+	max-width: 750px;
+	margin: 0 auto;
+}
