@@ -17,22 +17,25 @@ h1 {
 }
 
 .hero {
+	padding: 100px 0;
 	background: hsla(184, 73%, 10%, 1);
 	color: #fff;
-	padding: 50px 0;
 }
 
 .container {
 	width: 80%;
-	max-width: 750px;
+	max-width: 900px;
 	margin: 0 auto;
+	border: 2px solid yellow;
 }
 
 .btn {
+	display: inline-block;
 	background: hsla(184, 68%, 53%, 1);
 	color: #333;
 	font-weight: 900;
 	padding: .5em 1.5em;
+	margin-top: 2em;
 	border: none;
 	border-radius: 2em;
 	text-transform: uppercase;
