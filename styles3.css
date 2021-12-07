@@ -37,10 +37,10 @@ h1 {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #23424A;
+	font-weight: 700;
 	background: #36ced9;
-	font-weight: 900;
-	padding: .5em 1.5em;
+	padding: .75em 2em;
+	border-radius: 100px;
 	margin-top: 2em;
 	border: none;
-	border-radius: 100px;
 }
