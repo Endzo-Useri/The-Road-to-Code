@@ -16,17 +16,22 @@ h1 {
 	font-weight: 900;
 }
 
+.container {
+	width: 80%;
+	max-width: 900px;
+	margin: 0 auto;
+	border: 2px solid yellow;
+}
+
 .hero {
 	padding: 100px 0;
 	background: hsla(184, 73%, 10%, 1);
 	color: #fff;
 }
 
-.container {
-	width: 80%;
-	max-width: 900px;
-	margin: 0 auto;
-	border: 2px solid yellow;
+.hero__text {
+	width: 50%;
+	border: 1px solid pink;
 }
 
 .btn {
