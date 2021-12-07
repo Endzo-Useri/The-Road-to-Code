@@ -12,10 +12,14 @@ body {
 	font-size: 1em;
 }
 
+h1 {
+	
+}
+
 .intro {
 	background: hsla(184, 73%, 10%, 1);
 	color: #fff;
-	padding: 1em;
+	padding: 9.25em 38em 9.1875em 7.625em;
 }
 
 .container {
