@@ -8,12 +8,14 @@ html {
 
 body {
 	margin: 0;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
 }
 
 .intro {
 	background: hsla(184, 73%, 10%, 1);
 	color: #fff;
+	padding: 1em;
 }
 
 .container {
