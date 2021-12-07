@@ -28,6 +28,10 @@ h1 {
 	color: #fff;
 }
 
+.hero p {
+	margin-bottom: 3em;
+}
+
 .hero__text {
 	width: 60%;
 }
@@ -41,6 +45,5 @@ h1 {
 	background: #36ced9;
 	padding: .75em 2em;
 	border-radius: 100px;
-	margin-top: 2em;
 	border: none;
 }
