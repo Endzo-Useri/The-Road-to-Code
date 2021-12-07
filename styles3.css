@@ -13,13 +13,13 @@ body {
 }
 
 h1 {
-
+	font-weight: 900;
 }
 
 .intro {
 	background: hsla(184, 73%, 10%, 1);
 	color: #fff;
-	padding: 9.25em 38em 9.1875em 7.625em;
+	padding: 50px 0;
 }
 
 .container {
@@ -30,7 +30,11 @@ h1 {
 
 .btn {
 	background: hsla(184, 68%, 53%, 1);
+	color: #333;
+	font-weight: 900;
 	padding: .5em 1.5em;
+	border: none;
 	border-radius: 2em;
 	text-transform: uppercase;
+	text-decoration: none;
 }
