@@ -23,7 +23,11 @@ h1 {
 }
 
 .row {
+	/* display: flex => flex container */
 	display: flex;
+
+	/* default = row */
+	flex-direction: row;
 }
 
 .hero {
