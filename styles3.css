@@ -22,6 +22,10 @@ h1 {
 	margin: 0 auto;
 }
 
+.row {
+	display: flex;
+}
+
 .hero {
 	padding: 100px 0;
 	background: #23424A;
