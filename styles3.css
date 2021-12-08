@@ -30,6 +30,10 @@ h1 {
 	flex-direction: row;
 }
 
+.col {
+	/* these are now flex-items */
+}
+
 .hero {
 	padding: 100px 0;
 	background: #23424A;
