@@ -32,6 +32,7 @@ h1 {
 
 .col {
 	/* these are now flex-items */
+	padding: 20px;
 }
 
 .hero {
