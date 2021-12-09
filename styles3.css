@@ -28,11 +28,16 @@ h1 {
 
 	/* default = row */
 	flex-direction: row;
+	/* gap: 25px; */
 }
 
 .col {
 	/* these are now flex-items */
 	width: 100%;
+}
+
+.col + .col {	
+	margin-left: 100px;
 }
 
 .hero {
