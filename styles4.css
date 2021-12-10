@@ -84,6 +84,11 @@ h2 {
 	background: #136C72;
 }
 
+.footer-h2,
+.footer-p {
+	color: #FFF;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
