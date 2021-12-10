@@ -54,6 +54,11 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+		text-align: center;
+}
+
+.col + .col {
+	margin-left: 100px;
 }
 
 .hero {
