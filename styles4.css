@@ -47,6 +47,10 @@ h2 {
     margin: 0 auto;
 }
 
+.container-h2 {
+	color: #87629A;
+}
+
 .row {
     /* display: flex => flex container */
     display: flex;
