@@ -75,6 +75,10 @@ h1 {
     margin-bottom: 3em;
 }
 
+.footer {
+	background: #136C72;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
