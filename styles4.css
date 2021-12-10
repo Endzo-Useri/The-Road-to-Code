@@ -63,11 +63,11 @@ h2 {
     /* these are now flex items */
     width: 100%;
 		text-align: center;
-		padding: 50px 0;
+		padding: 3em 0;
 }
 
 .col + .col {
-	margin-left: 100px;
+	margin-left: 30px;
 }
 
 .hero {
@@ -84,12 +84,12 @@ h2 {
     margin-bottom: 3em;
 }
 
-.footer {
+.section {
 	background: #136C72;
 }
 
-.footer-h2,
-.footer-p {
+.section__h2,
+.section__p {
 	color: #FFF;
 }
 
