@@ -18,9 +18,12 @@
    so you'll have to add it back in
 
    */
+html {
+	box-sizing: border-box;
+}
 
 *, *::before, *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
