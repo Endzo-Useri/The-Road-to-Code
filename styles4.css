@@ -42,7 +42,7 @@ h2 {
 	margin: 0;
 }
 
-section {
+.two-col {
 	background: #136C72;
 }
 
@@ -50,10 +50,6 @@ section {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-}
-
-.accent-text {
-	color: #87629A;
 }
 
 .row {
@@ -87,6 +83,10 @@ section {
 
 .hero p {
     margin-bottom: 3em;
+}
+
+.accent-text {
+	color: #87629A;
 }
 
 .light-text {
