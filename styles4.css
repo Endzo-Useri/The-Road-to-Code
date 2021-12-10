@@ -70,9 +70,9 @@ h2 {
 }
 
 .hero {
-    padding: 100px 0;
-    background-color: #23424A;
-    color: #FFF;
+	padding: 100px 0;
+	background-color: #23424A;
+	color: #FFF;
 }
 
 .hero__text {
@@ -98,17 +98,19 @@ h2 {
 }
 
 .btn {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase; 
-    color: #23424A;
-    font-weight: 900;
-    background-color: #38CFD9;
-    padding: .75em 2em;
-    border-radius: 100px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase; 
+	color: #23424A;
+	font-weight: 900;
+	background-color: #38CFD9;
+	padding: .75em 2em;
+	border-radius: 100px;
+	transition: transform 300ms ease-in-out;
 }
 
 .btn:hover,
-.btn:focus {
-    opacity: .75; 
+.btn:focus-visible {
+	opacity: .75;
+	transform: scale(1.05);
 }
