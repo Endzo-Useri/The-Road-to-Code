@@ -86,10 +86,10 @@ header * {
 .container {
 	/* display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1em;
-	border: 4px solid orange; */
+	grid-gap: 1em; */
+	border: 4px solid orange;
 	width: 80%;
-	max-width: 600px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
