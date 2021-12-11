@@ -32,6 +32,10 @@ h2 {
   max-width: 500px;
 }
 
+h1 {
+	font-weight: 700;
+}
+
 header img {
   height: 4rem;
   max-width: 100%;
