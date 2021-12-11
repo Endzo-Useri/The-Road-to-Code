@@ -84,10 +84,11 @@ header * {
 }
 
 .container {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1em;
-	border: 4px solid orange;
+	border: 4px solid orange; */
+	width: 80%;
 	max-width: 600px;
 	margin: 0 auto;
 }
