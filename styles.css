@@ -94,6 +94,8 @@ header * {
 }
 
 .intro {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	border: 3px solid green;
   max-width: 500px;
 	margin: .5em auto;
