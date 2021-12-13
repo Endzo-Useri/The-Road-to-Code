@@ -8,11 +8,17 @@ html {
 	box-sizing: inherit;
 }
 
+body,
+h1,
+h2 {
+	margin: 0;
+}
+
 body {
   background: hsla(0, 0%, 0%, 0.2);
   color: #404040;
   font-family: "Roboto", sans-serif;
-	font-size: 1rem;
+	font-size: 1em;
   height: 125vh;
   margin-top: 5em;
   padding: 2em;
@@ -24,6 +30,10 @@ h2 {
   margin: 1.4em auto;
   padding: 1.4em 0;
   max-width: 500px;
+}
+
+h1 {
+	font-weight: 700;
 }
 
 header img {
@@ -78,16 +88,29 @@ header * {
 }
 
 .container {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr 1fr;
+<<<<<<< HEAD
 	grid-gap: 1em;
 	border: 5px solid red;
 	max-width: 600px;
+=======
+	grid-gap: 1em; */
+	border: 4px solid orange;
+	width: 80%;
+	max-width: 900px;
+>>>>>>> ac50ce14cf0facfe56d468e628a2b78e77751536
 	margin: 0 auto;
 }
 
 .intro {
+<<<<<<< HEAD
 	/* background: green; */
+=======
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 3px solid green;
+>>>>>>> ac50ce14cf0facfe56d468e628a2b78e77751536
   max-width: 500px;
 	margin: .5em auto;
 }

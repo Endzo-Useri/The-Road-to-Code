@@ -1,0 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+	/* border: 5px solid red; */
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.parent {
+	background: #23424A;
+	padding: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.child {
+	background: #38CFD9;
+	width: 50%;
+	height: 250px;
+}
