@@ -90,23 +90,33 @@ header * {
 .container {
 	/* display: grid;
 	grid-template-columns: 1fr 1fr;
+<<<<<<< HEAD
+	grid-gap: 1em;
+	border: 5px solid red;
+	max-width: 600px;
+=======
 	grid-gap: 1em; */
 	border: 4px solid orange;
 	width: 80%;
 	max-width: 900px;
+>>>>>>> ac50ce14cf0facfe56d468e628a2b78e77751536
 	margin: 0 auto;
 }
 
 .intro {
+<<<<<<< HEAD
+	/* background: green; */
+=======
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	border: 3px solid green;
+>>>>>>> ac50ce14cf0facfe56d468e628a2b78e77751536
   max-width: 500px;
 	margin: .5em auto;
 }
 
 .cols {
-	border: 4px solid red;
+	background: red;
   background: hsl(0, 0%, 83%);
   display: flex;
 	flex-direction: column;
