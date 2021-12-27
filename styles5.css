@@ -32,6 +32,7 @@ h1 {
 }
 
 .container {
+	border: 3px solid red;
 	width: 80%;
 	max-width: 1100px;
 	margin: 0 auto;
@@ -61,11 +62,13 @@ h1 {
 	color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
+	border: 3px solid yellow;
 	width: 62%;
 }
 
 .hero__img {
+	border: 3px solid yellow;
 	width: 32%;
 	align-self: flex-start;
 }
@@ -74,9 +77,14 @@ h1 {
 	margin-bottom: 3em;
 }
 
+.main__text {
+	width: 62%;
+}
+
 .main__sidebar {
 	background: #136C72;
 	color: #fff;
+	width: 32%;
 	text-align: center;
 }
 
