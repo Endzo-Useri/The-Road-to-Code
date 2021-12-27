@@ -16,8 +16,13 @@
 	box-sizing: border-box;
 }
 
-body {
+body,
+h1,
+h2 {
 	margin: 0;
+}
+
+body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.3rem;
 }
@@ -28,7 +33,6 @@ img {
 
 h1 {
 	font-size: 3rem;
-	margin-top: 0;
 }
 
 .container {
@@ -60,6 +64,7 @@ h1 {
 	padding: 100px 0;
 	background-color: #23424A;
 	color: #FFF;
+	margin-bottom: 2em;
 }
 
 .hero__text {
@@ -78,14 +83,24 @@ h1 {
 }
 
 .main__text {
-	width: 62%;
+	width: 63%;
+}
+
+.main__text__h2 {
+	color: #136C72;
+	font-size: 2.25rem;
 }
 
 .main__sidebar {
 	background: #136C72;
 	color: #fff;
 	width: 32%;
+	padding: 1.5em;
 	text-align: center;
+}
+
+.main__sidebar__h2 {
+	font-size: 2.25rem;
 }
 
 .btn {
