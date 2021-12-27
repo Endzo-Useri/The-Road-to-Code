@@ -74,6 +74,12 @@ h1 {
     margin-bottom: 3em;
 }
 
+.main__sidebar {
+	background: #136C72;
+	color: #fff;
+	text-align: center;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
