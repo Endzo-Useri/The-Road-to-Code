@@ -92,7 +92,7 @@ h1 {
 	font-size: 2.25rem;
 }
 
-.main__sidebar {
+.sidebar {
 	background: #136C72;
 	color: #fff;
 	width: 32%;
@@ -100,7 +100,7 @@ h1 {
 	text-align: center;
 }
 
-.main__sidebar__h2 {
+.sidebar__h2 {
 	font-size: 2.25rem;
 }
 
