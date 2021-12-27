@@ -36,7 +36,6 @@ h1 {
 }
 
 .container {
-	border: 3px solid red;
 	width: 80%;
 	max-width: 1100px;
 	margin: 0 auto;
@@ -68,12 +67,14 @@ h1 {
 }
 
 .hero__text {
-	border: 3px solid yellow;
 	width: 62%;
 }
 
+.hero__p {
+	font-size: 1.3125rem;
+}
+
 .hero__img {
-	border: 3px solid yellow;
 	width: 32%;
 	align-self: flex-start;
 }
