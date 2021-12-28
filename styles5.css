@@ -83,6 +83,10 @@ h1 {
 	margin-bottom: 3em;
 }
 
+.main {
+	margin-bottom: 2em;
+}
+
 .main__text {
 	width: 63%;
 }
