@@ -89,8 +89,11 @@ h1 {
 }
 
 header {
-	background: #136C72;
-	padding: 1em 0;
+	background: hsla(184, 71%, 26%, .8);
+	padding: .5em 0;
+	position: fixed;
+	right: 0;
+	left: 0;
 }
 
 .nav__list {
