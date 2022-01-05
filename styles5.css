@@ -89,11 +89,12 @@ h1 {
 }
 
 header {
-	background: hsla(184, 71%, 26%, .8);
+	background: hsla(184, 71%, 26%, .9);
 	padding: .5em 0;
 	position: fixed;
 	right: 0;
 	left: 0;
+	top: 0;
 }
 
 .nav__list {
@@ -108,6 +109,7 @@ header {
 
 .nav__link {
 	color: #fff;
+	opacity: .8;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
