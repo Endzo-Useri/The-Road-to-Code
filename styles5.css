@@ -35,6 +35,11 @@ h1 {
 	font-size: 3rem;
 }
 
+.main__title {
+	color: #136C72;
+	font-size: 2.25rem;
+}
+
 .btn {
 	display: inline-block;
 	text-decoration: none;
@@ -107,11 +112,6 @@ h1 {
 
 .main__content {
 	width: 63%;
-}
-
-.main__h2 {
-	color: #136C72;
-	font-size: 2.25rem;
 }
 
 .main__p {
