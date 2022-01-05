@@ -40,6 +40,10 @@ h1 {
 	font-size: 2.25rem;
 }
 
+.sidebar__title {
+	font-size: 2.25rem;
+}
+
 .btn {
 	display: inline-block;
 	text-decoration: none;
@@ -124,8 +128,4 @@ h1 {
 	width: 32%;
 	padding: 1.5em;
 	text-align: center;
-}
-
-.sidebar__title {
-	font-size: 2.25rem;
 }
