@@ -35,6 +35,22 @@ h1 {
 	font-size: 3rem;
 }
 
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase; 
+	color: #23424A;
+	font-weight: 900;
+	background-color: #38CFD9;
+	padding: .75em 2em;
+	border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+	opacity: .75; 
+}
+
 .container {
 	width: 80%;
 	max-width: 1100px;
@@ -110,20 +126,4 @@ h1 {
 
 .sidebar__h2 {
 	font-size: 2.25rem;
-}
-
-.btn {
-	display: inline-block;
-	text-decoration: none;
-	text-transform: uppercase; 
-	color: #23424A;
-	font-weight: 900;
-	background-color: #38CFD9;
-	padding: .75em 2em;
-	border-radius: 100px;
-}
-
-.btn:hover,
-.btn:focus {
-	opacity: .75; 
 }
