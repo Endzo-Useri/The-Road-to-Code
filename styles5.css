@@ -97,14 +97,18 @@ header {
 	top: 0;
 }
 
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
 .nav__list {
 	display: flex;
-	justify-content: flex-end;
 	padding: 0;
 	list-style: none;
 }
 
-.nav__item {
+.nav__item + .nav__item {
 	margin-left: 3em;
 }
 
