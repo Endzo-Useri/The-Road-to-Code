@@ -100,8 +100,11 @@ header {
 	list-style: none;
 }
 
+.nav__item {
+	margin-right: 3em;
+}
+
 .nav__link {
-	margin-left: 3em;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
