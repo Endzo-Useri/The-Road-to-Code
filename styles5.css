@@ -88,6 +88,35 @@ h1 {
 	margin-left: 30px;
 }
 
+header {
+	background: #136C72;
+	padding: .5em 0;
+}
+
+.nav__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav__link--button {
+	background: #fff;
+	color: #136C72;
+	padding: .25em 1em;
+	border-radius: 10em;
+}
+
+.nav__link:hover,
+.nav__link:focus-visible {
+	opacity: .75;
+}
+
 .hero {
 	padding: 100px 0;
 	background-color: #23424A;
