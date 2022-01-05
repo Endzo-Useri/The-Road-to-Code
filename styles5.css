@@ -99,12 +99,13 @@ header {
 
 .nav__list {
 	display: flex;
+	justify-content: flex-end;
 	padding: 0;
 	list-style: none;
 }
 
 .nav__item {
-	margin-right: 3em;
+	margin-left: 3em;
 }
 
 .nav__link {
