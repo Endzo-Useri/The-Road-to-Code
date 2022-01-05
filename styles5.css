@@ -110,6 +110,7 @@ header {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .nav__link--button {
