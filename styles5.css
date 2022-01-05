@@ -81,7 +81,6 @@ h1 {
 	padding: 100px 0;
 	background-color: #23424A;
 	color: #FFF;
-	margin-bottom: 2em;
 }
 
 .hero__text {
@@ -102,14 +101,15 @@ h1 {
 }
 
 .main {
+	margin-top: 2em;
 	margin-bottom: 2em;
 }
 
-.main__text {
+.main__content {
 	width: 63%;
 }
 
-.main__text__h2 {
+.main__h2 {
 	color: #136C72;
 	font-size: 2.25rem;
 }
