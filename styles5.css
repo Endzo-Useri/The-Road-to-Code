@@ -117,7 +117,7 @@ header {
 	opacity: .8;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 900;
 }
 
 .nav__link--button {
