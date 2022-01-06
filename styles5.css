@@ -74,7 +74,7 @@ h1 {
 	/* display: flex => flex container */
 	display: flex;
 	justify-content: space-between;
-	
+
 	/* can't use yet */
 	/* gap: 100px; */
 }
@@ -97,6 +97,10 @@ header {
 	/* top: 0; */
 }
 
+.logo {
+	margin-right: 1em;
+}
+
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -104,12 +108,15 @@ header {
 
 .nav__list {
 	display: flex;
+	align-items: center;
+	margin: 0;
 	padding: 0;
 	list-style: none;
+	font-size: .9rem;
 }
 
 .nav__item + .nav__item {
-	margin-left: 3em;
+	margin-left: 1em;
 }
 
 .nav__link {
