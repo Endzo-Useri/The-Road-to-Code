@@ -114,6 +114,7 @@ header {
 	padding: 0;
 	list-style: none;
 	font-size: .9rem;
+	border: 2px solid red;
 }
 
 .nav__item + .nav__item {
